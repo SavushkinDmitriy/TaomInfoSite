@@ -1,0 +1,65 @@
+﻿<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+ </head>
+ <body bgcolor = #EFEFEF>
+ <table bgcolor=green>
+ <tr>
+ <td bgcolor=#3BF887 vaign=top><font size = 20>Форма обратной связи</font></td>
+ </tr>
+ </table>
+ <br>
+ <form bgcolor=#E3E3E3 method=POST action="HandleForm.php">
+ <table bgcolor=#E3E3E3>
+ <tr>
+ <td vaign=top>Имя, фамилия, отчество <font color=red> *</font></td>
+ <td><input type=text name="FirstName"  placeholder="Имя, фамилия, отчество" size=30></td>
+ </tr>
+ <tr>
+ <td vaign=top>Организация</td>
+ <td><input type=text name="Company" placeholder="Организация" size=30></td>
+ </tr>
+ <tr>
+ <tr>
+ <td vaign=top>Должность</td>
+ <td><input type=text name="Position" placeholder="Должность" size=30></td>
+ </tr>
+ <tr>
+ <td vaign=top>Телефон</td>
+ <td><input type=number_format name="Phone" placeholder="Телефон" size=30></td>
+ </tr>
+ <tr>
+ <tr>
+ <td vaign=top>Контактный Email<font color=red> *</font></td>
+ <td><input type=email name="Email" placeholder="Контактный Email" size=30></td>
+ </tr>
+ <tr>
+ <td vaign=top>Ваше сообщение <font color=red> *</font></td>
+ <td><textarea name="Comments" rows=5 cols=40 placeholder="Ваше сообщение"></textarea></td>
+ </tr>
+ </table>
+ 
+ <font color=red> *</font>- обязательный для заполнения <input type=submit name="Submit" value="Отправить сообщение">&nbsp;
+
+ </form>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
